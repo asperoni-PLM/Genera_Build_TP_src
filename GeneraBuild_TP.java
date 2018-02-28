@@ -20,6 +20,7 @@ import java.util.*;
 
 
 public class GeneraBuild_TP extends JFrame{
+//Test modifica 2
 //	public String sBuildsPath = "E:/SAFILO_BUILDS/";
 	public String sBuildsPath = "C:/Temp/";
 	
