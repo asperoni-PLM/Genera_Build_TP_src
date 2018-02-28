@@ -19,7 +19,6 @@ import java.net.URLEncoder;
 import java.util.*;
 
 
-
 public class GeneraBuild_TP extends JFrame{
 //	public String sBuildsPath = "E:/SAFILO_BUILDS/";
 	public String sBuildsPath = "C:/Temp/";
@@ -41,8 +40,8 @@ public class GeneraBuild_TP extends JFrame{
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		double width = screenSize.getWidth();
 		double height = screenSize.getHeight();
-		System.out.println("-->width<--"+width);
-		System.out.println("-->height<--"+height);
+//		System.out.println("-->width<--"+width);
+//		System.out.println("-->height<--"+height);
 		if (width > 2400) {
 			labelFont = new Font("TimesRoman", Font.BOLD, 45);
 			textFont = new Font("TimesRoman", Font.PLAIN, 45);
